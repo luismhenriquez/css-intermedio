@@ -1,0 +1,27 @@
+
+
+/* 
+    Un fallback es como un plan b en caso de que la variable falle.
+*/
+
+/* No hay límites para poner fallback, pero lo recomendable
+es poner uno solo (en caso de que se ponga) */
+
+/* Las variables tienen Case sensitive; Son sensibles
+a mayúsculas (hay que ponerlo como lo escribamos.) */
+
+:root{
+    --text-color: #fff;
+    --color-fallback: purple;
+
+}
+
+body{
+    background: #333;
+    color: var(--text-color, var(--color-fallback));
+    font-family: sans-serif;
+}
+
+button, a{
+    color: var(--text-color);
+}

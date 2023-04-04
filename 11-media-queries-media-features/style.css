@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    background: #222;
+    color: lightcoral;
+    font-family: sans-serif;
+}
+
+/*
+    Si nosotros bajamos de 768, lo que le decimos
+    es que este estilo ya no se tiene que aplicar.
+ */
+
+ /* min-width: La regla @media en CSS te permite aplicar un conjunto de estilos a un elemento en función de las características del dispositivo que se utiliza para ver la página, como su tamaño de pantalla. En particular, @media screen and (min-width: 768px) es una regla que se aplica a los dispositivos con una anchura de pantalla de al menos 768 píxeles.
+ 
+ La sintaxis min-width se utiliza para especificar la anchura mínima de la pantalla en píxeles a partir de la cual se aplicará el conjunto de estilos definido dentro de la regla @media. Por lo tanto, en el ejemplo que proporcionas, la regla se aplicará a cualquier pantalla con una anchura igual o superior a 768 píxeles.*/
+
+
+ /* max-width: En esta regla, la sintaxis max-width se utiliza para especificar la anchura máxima de la pantalla en píxeles a partir de la cual se aplicará el conjunto de estilos definido dentro de la regla @media. En otras palabras, la regla se aplicará a cualquier pantalla con una anchura igual o inferior a 768 píxeles. */
+ 
+ /* min-width para Mobile first, max-width para Desktop first */
+
+@media screen and (min-width: 768px){
+    body{
+        color: red;
+    }
+}

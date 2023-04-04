@@ -1,0 +1,19 @@
+
+
+/* Las variables no se hacen en el body o en el html,
+se hacen en :root */
+
+:root{
+    --text-color: #666;
+
+}
+
+body{
+    background: #ccc;
+    color: var(--text-color);
+    font-family: sans-serif;
+}
+
+button, a{
+    color: var(--text-color);
+}

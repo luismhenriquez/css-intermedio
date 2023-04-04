@@ -1,0 +1,70 @@
+body{
+    background: #333;
+}
+
+/*.button-red{
+    background: firebrick;
+    border-radius: 0.4em;
+    color: #fff;
+    padding: 0.4em 1em;
+    border: none;
+}
+
+.button-ghost-blue{
+    background: transparent;
+    border-radius: 0.4em;
+    color: royalblue;
+    padding: 0.4em 1em;
+    border: 1px solid royalblue;
+}
+
+.button-ghost-red{
+    background: transparent;
+    border-radius: 0.4em;
+    color: firebrick;
+    padding: 0.4em 1em;
+    border: 1px solid firebrick;
+} */
+
+.button { /*en este caso button sería nuestro bloque*/
+    border-radius: 0.4em;
+    padding: 0.4em 1em;
+    border: none;
+}
+
+.button--red,
+.button--blue,
+.button--orange{
+    color: #fff;
+}
+
+.button--blue{
+    background: royalblue;
+}
+
+.button--red{
+    background: firebrick;
+}
+
+.button--orange{
+    background: orange;
+}
+
+.button--ghost-blue,
+.button--ghost-red,
+.button--ghost-orange{
+    background: transparent;
+    border: 1px solid currentColor; /*currentColor significa: color actual, y se usa para copiar el colo que se esté usando.*/
+}
+
+.button--ghost-blue{
+    color: royalblue;
+}
+
+.button--ghost-red{
+    color: firebrick;
+}
+
+.button--ghost-orange{
+    color: orange;
+}

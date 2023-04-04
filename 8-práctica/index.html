@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BEM Botones MODIFICADORES</title>
+</head>
+<body>
+    <!-- <button class="button-blue">Button</button>
+    <button class="button-red">Button</button>
+    <button class="button-ghost-blue">Button</button>
+    <button class="button-ghost-red">Button</button> -->
+
+
+<!-- button en este caso, sería nuestro bloque, -->
+    <button class="button button--blue">Button</button>
+    <button class="button button--red">Button</button>
+    <button class="button button--orange">Button</button>
+    <button class="button button--ghost-blue">Button</button>
+    <button class="button button--ghost-red">Button</button>
+    <button class="button button--ghost-orange">Button</button>
+</body>
+</html> 
+
+<!-- BEM significa: Bloque, elemento, modificador. -->
+
+<!-- ¿Qué es un bloque?
+    Es un elemento que se repetirá en nuestro HTML.
+El objetivo de los bloques es reutilizar componentes que se repiten. -->
+
+<!-- ¿Qué es un elemento?
+Los hijos que no pueden existir sin el padre.
+Los elementos son las piezas que conforman ese bloque y que no podrían existir de forma independiente. -->
+
+<!-- ¿Cuándo usamos modificadores?
+Cuando un bloque o un elemento tiene alguna modificación pero mantiene estilos comunes.
+De esa forma ahorramos complejidad en nuestro CSS. -->

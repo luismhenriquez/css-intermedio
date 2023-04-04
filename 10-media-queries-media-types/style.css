@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    background: #222;
+    color: lightcoral;
+    font-family: sans-serif;
+}
+
+/* Cuando vaya a imprimir la página web,
+    se imprimirá, en este caso, de color rojo,
+    aunque sin imprimir sea color lightcoral. */
+@media print{
+    body{
+        color: red;
+    }
+}

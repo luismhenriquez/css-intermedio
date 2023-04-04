@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BEM Menú ELEMENTOS</title>
+</head>
+<body>
+    <nav>
+        <!-- En la metodología bem se pone el nombre del bloque
+        más el nombre que le corresponda, si el principal es
+        "menu", se pone en los demás elementos "menu" y también
+        link en este caso, que sería entonces: "menu__link" -->
+        <ul class="menu">
+            <li class="menu__item">
+                <a href="#" class="menu__link">Item 1</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">Item 2</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">Item 3</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">Item 4</a>
+            </li>
+        </ul>
+
+        <ul class="menu menu--vertical">
+            <li class="menu__item">
+                <a href="#" class="menu__link">Item 1</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">Item 2</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">Item 3</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">Item 4</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

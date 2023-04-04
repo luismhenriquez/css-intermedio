@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background: #222;
+    color: lightcoral;
+    font-family: sans-serif;
+}
+
+@media screen and (prefers-color-scheme: light){
+    body{
+        background: #ccc;
+    }
+}
+@media screen and (prefers-color-scheme: dark){
+    body{
+        background: #333;
+    }
+}
+
+/* Si cambio en mi windows el color de oscuro a claro,
+cambia también en la web. */
