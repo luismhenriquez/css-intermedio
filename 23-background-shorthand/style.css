@@ -1,0 +1,18 @@
+body{
+    background-color: #333;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    padding: 80px;
+    box-sizing: border-box;
+    background-image: url(/assets/images/dorian.png);
+    background-position: bottom right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: lightsalmon;
+
+    /* background: image position / size repeat attachment origin clip color */
+    background: url(/assets/images/dorian.png) bottom right / contain no-repeat lightsalmon;
+}

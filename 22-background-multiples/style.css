@@ -8,6 +8,14 @@ body{
     padding: 80px;
     box-sizing: border-box;
     border: 15px dashed lightseagreen;
-    background-image: url(/assets/images/dorian.jpg);
+    background-image: url(/assets/images/dorian.png), url(/assets/images/mario-bross.png);
     background-repeat: no-repeat;
+
+    /* La primera imagen tiene un tamaño del 50%, y la segunda imagen tiene un tamaño de un 25% */
+    background-size: 50%, 25%;
+
+    /* Con las comas puedo posicionar el uno y el otro */
+    background-position: bottom right, bottom left;
 }
+
+/* No hay límite respecto al número de backgrounds, por ende, ni de sizes y ni posicionamiento  */
