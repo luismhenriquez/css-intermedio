@@ -1,0 +1,19 @@
+body{
+    background-color: #333;
+}
+
+.box{
+    width: 400px;
+    height: 500px;
+    background-color: lightcoral;
+    background-image: url(/assets/images/dorian.png);
+    background-repeat: no-repeat;
+}
+
+/*todo: ¿Cuándo utilizar la etiqueta img, y cuándo utilizar background-image?
+    Si la imagen es de adorno, y no es necesaria para el contenido, que
+    simplemente está ahí porque queda bien,en ese caso background-image.
+    
+    Si la imagen es relevante, y tenemos que ponerla porque si la quitamos
+    perdería el contexto de lo que estamos representando, en ese caso se
+    utiliza la etiqueta img.  */

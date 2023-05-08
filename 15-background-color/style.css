@@ -1,0 +1,26 @@
+body{
+    background-color: #333;
+    position: relative;
+    min-height: 100vh; /*Si le doy un 50vh, el body llega a la mitad, y así. */
+    margin: 0;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    position: absolute;
+    bottom: 0;
+}
+
+/* ? Aunque se pinte todo el body de un color (poniendo background-color), no quiere decir que el body mida todo el contenido del Viewport. */
+
+/* Es bueno poner en las páginas un min-height: 100vh;,
+y el scroll que aparece es porque no hemos quitado el margen,
+ponemos margin: 0; y listo. */
+
+/* todo: RECORDAR:  Siempre que tengamos una página con poco contenido, el background, aunque se pinte todo, el body no llega abajo del todo. */
+
+/* Cuando hacemos la típica página de contacto, que suele tener poco contenido, esto es un error muy común.
+
+Cuando al footer lo queremos colocar abajo, y tampoco se coloca abajo, porque el body no llega hasta la parte inferior, también es un problema que se nota. */

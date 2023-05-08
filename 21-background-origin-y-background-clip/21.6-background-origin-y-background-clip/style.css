@@ -1,0 +1,23 @@
+
+body{
+    background-color: #333;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    padding: 60px;
+    box-sizing: border-box;
+    border: 15px dashed lightseagreen;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/dorian.jpg);
+    background-origin: border-box;
+    background-size: contain;
+
+    /* Lo que hace es ocultar toda la zona que no sea del contenido, te oculta toda la zona del padding y del borde */
+    background-clip: content-box;
+}
+
+/* Esta es la principal diferencia que tiene respecto a background-origin */

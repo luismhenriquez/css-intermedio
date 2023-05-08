@@ -1,0 +1,13 @@
+body{
+    background-color: #333;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    padding: 80px;
+    box-sizing: border-box;
+    border: 15px dashed lightseagreen;
+    background-image: url(/assets/images/dorian.jpg);
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,21 @@
+
+body{
+    background-color: #333;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    padding: 60px;
+    box-sizing: border-box;
+    border: 15px dashed lightseagreen;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/dorian.jpg);
+    background-origin: border-box;
+    background-size: contain;
+
+    /* Oculta la zona que corresponde al border-box, no redimensiona la imagen ni nada, lo único que hace es ocultar */
+    background-clip: padding-box;
+}

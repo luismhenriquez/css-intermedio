@@ -1,0 +1,23 @@
+body{
+    background-color: #333;
+}
+
+.box{
+    width: 500px;
+    height: 700px;
+    background-color: lightcoral;
+    background-image: url(/assets/images/dorian.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    /* background-size: 100px; */
+}
+
+/*
+cover: La imagen crece hasta que cubra todo el contenedor, aunque eso implique que se corte parte de la imagen.
+
+COVER: CUBRIR EL CONTENEDOR, AUNQUE SE QUEDE ALGÚN TROZO DE LA IMAGEN FUERA.
+
+contain: La imagen crece hasta que no tenga que cortar imagen, por ende, se mostrará el el eje x o el eje y primero sin cubrirlo.
+
+CONTAIN:  NO VA A RECORTAR LA FOTO, SOLO CUBRIR EL LADO QUE PUEDA.
+*/

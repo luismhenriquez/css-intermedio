@@ -1,0 +1,23 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 80px;
+    border: 10px dotted blue;
+    
+    outline: 3px solid green;
+}
+
+/* El background va a cubrir el contenido del elemento,
+el padding y el borde */
+
+/* Si ponemos un outline, ya no formaría parte del fondo. */

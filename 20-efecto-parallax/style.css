@@ -1,0 +1,33 @@
+body{
+    background-color: #333;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box{
+    min-height: 100vh;
+    padding: 1px;
+    background-attachment: fixed;
+}
+
+.box__texts{
+    margin-top: 40vh;
+    background-color: rgb(0 0 0 /.4);
+    color: aliceblue;
+    padding: 1em 2em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-1{
+    background-image: url(/20-efecto-parallax/assets/images/1.jpeg);
+}
+
+.box-2{
+    background-image: url(/20-efecto-parallax/assets/images/2.jpeg);
+}
+
+.box-3{
+    background-image: url(/20-efecto-parallax/assets/images/3.jpeg);
+}
