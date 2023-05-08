@@ -1,0 +1,9 @@
+body{
+    background-color: #333;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    background-image: radial-gradient(orange, purple);
+}

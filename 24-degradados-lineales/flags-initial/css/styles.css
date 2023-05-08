@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+  text-align: center;
+}
+
+.flags-container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flag {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #fff;
+}
+
+.armenia {
+  /* colors: #d90011 #0033a0 #f2a800 */
+}
+
+.belgium {
+  /* colors: #000 #fae042 #ed2939 */
+}
+
+.botswana {
+  /* colors: #75aadb #fff #000 */
+}
+
+.benim {
+  /* colors: #008751 #fcd116 #e8112d */
+}
+
+.congo {
+  /* colors: #009543 #fbde4a #dc241f */
+}
+
+.seychelles {
+  /* colors: #007a3d #fff #d62828 #fcd856 #003f87 */
+}

@@ -1,0 +1,11 @@
+body{
+    background-color: #333;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(orange, purple);
+}
+
+/* Los colores van en el sentido de las agujas del reloj siempre */

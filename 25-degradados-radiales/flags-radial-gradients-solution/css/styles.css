@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+  text-align: center;
+}
+
+.flags-container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flag {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #fff;
+}
+
+.japan {
+  background-image: radial-gradient(100px at 50% 50%, #bc002d 35%, #fff 35%);
+}
+
+.palau {
+  background-image: radial-gradient(100px at 40% 50%, #ffde00 35%, transparent 35%);
+  background-color: #4aadd6;
+}
+
+.laos {
+  background-image: radial-gradient(70px at 50% 50%, #fff 35%, transparent 35%),
+    linear-gradient(180deg, #ce1126 25%, #002868 25%, #002868 75%, #ce1126 75%);
+}
+
+.rainbow {
+  width: 500px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #fff;
+
+  background-image: radial-gradient(
+    250px at 50% 100%,
+    transparent 20%,
+    red 20% 30%,
+    orange 30% 40%,
+    yellow 40%,
+    50%,
+    lime 50% 60%,
+    blue 60% 70%,
+    indigo 70% 80%,
+    violet 80% 90%,
+    transparent 90%
+  );
+}

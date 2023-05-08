@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+  text-align: center;
+}
+
+.flags-container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flag {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #fff;
+}
+
+.armenia {
+  background-image: linear-gradient(180deg, #d90011 33%, #0033a0 33%, #0033a0 66%, #f2a800 66%);
+}
+
+.belgium {
+  background-image: linear-gradient(90deg, #000 33%, #fae042 33%, #fae042 66%, #ed2939 66%);
+}
+
+.botswana {
+  background-image: linear-gradient(
+    #75aadb 35%,
+    #fff 35% 40%,
+    #000 40% 60%,
+    #fff 60% 65%,
+    #75aadb 65%
+  );
+}
+
+.benim {
+  background-image: linear-gradient(90deg, #008751, #008751 40%, transparent 40%),
+    linear-gradient(180deg, #fcd116 50%, #e8112d 50%);
+}
+
+.congo {
+  background-image: linear-gradient(135deg, #009543 40%, #fbde4a 40% 60%, #dc241f 60%);
+}
+
+.seychelles {
+  background-image: linear-gradient(170deg, transparent 80%, #007a3d 0),
+    linear-gradient(160deg, transparent 65%, #fff 65%),
+    linear-gradient(140deg, transparent 45%, #d62828 45%),
+    linear-gradient(120deg, transparent 25%, #fcd856 25%);
+  background-color: #003f87;
+}
