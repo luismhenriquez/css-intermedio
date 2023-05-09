@@ -1,0 +1,14 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+a {
+    color: inherit;
+    margin-right: 1em;
+}
+
+.text:target{
+    color: red;
+}

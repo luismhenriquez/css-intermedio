@@ -1,0 +1,21 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+.button{
+    border: none;
+}
+
+.button:hover{
+    color: purple;
+    background-color: orange;
+    border: none;
+}
+
+.button:active{
+    color: orange;
+    background-color: white;
+    border: none;
+}
