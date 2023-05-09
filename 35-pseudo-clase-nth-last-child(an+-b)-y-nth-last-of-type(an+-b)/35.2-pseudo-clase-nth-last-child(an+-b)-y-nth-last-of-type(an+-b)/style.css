@@ -1,0 +1,19 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+
+.box {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box:nth-last-of-type(1){
+    background-color: purple;
+}
+
+/* last lo que hace es que en vez de empezar sobre el primer elemento, empezará a partir del último, es decir, todo lo que aprendimos en los vídeos anteriores, pero con last empezará por el último.  */

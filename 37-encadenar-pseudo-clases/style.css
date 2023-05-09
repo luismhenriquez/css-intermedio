@@ -1,0 +1,28 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+
+.box {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box:not(:nth-child(3)):hover{
+    background-color: purple;
+}
+
+/* en :hover, marca todo, menos el 3.
+
+No importa si el hover se pone de primero o de último, pero a mí en lo personal me gusta más el último porque puedo copiar ese mismo y solo cambiar el :hover por ejemplo.
+
+NO ES RECOMENDABLE HACERLO MUCHO(mexclar pseudo clases) YA QUE SUBE MUCHO LA ESPECIFIDAD Y NO ES BUENO. */
+
+.box:hover{
+    background-color: lightgreen;
+}
+/* Si quiero puedo ponerle el color que yo quiera a la caja que decidimos no ponderle el color purple */
