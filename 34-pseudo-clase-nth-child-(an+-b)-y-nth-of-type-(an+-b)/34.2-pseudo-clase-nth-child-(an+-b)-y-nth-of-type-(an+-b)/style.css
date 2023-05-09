@@ -1,0 +1,19 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+
+.box {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box:nth-of-type(2){
+    background-color: purple;
+}
+
+/* todo: :nth-child() selecciona elementos basados en su posición en relación a sus hermanos, mientras que :nth-of-type() selecciona elementos basados en su tipo y posición dentro del padre. */

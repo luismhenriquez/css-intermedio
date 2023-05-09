@@ -1,0 +1,19 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+
+.box {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box:nth-child(2n-1){
+    background-color: purple;
+}
+
+/* Ahora vamos a ponerlo, pero en este caso -1, es decir, 1 menos del que seleccionamos. */

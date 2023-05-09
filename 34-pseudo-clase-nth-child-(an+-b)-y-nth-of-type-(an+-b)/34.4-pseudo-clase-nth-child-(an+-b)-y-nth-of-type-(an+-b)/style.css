@@ -1,0 +1,19 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+
+.box {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box:nth-child(2n){
+    background-color: purple;
+}
+
+/* Se va seleccionando dependiendo de lo que le digamos, cada 1n o cada 2n, o cada 3n se va seleccionando, y así. */

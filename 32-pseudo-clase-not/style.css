@@ -4,3 +4,8 @@ body{
     color: aliceblue;
 }
 
+
+/* Lo que estamos diciendo es que se apliquen los estilos a todos los selectores que hemos seleccionado, EXCEPTO(en este caso) a .menu__item--active */
+.menu__item:not(.menu__item--active){
+    color: red;
+}

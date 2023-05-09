@@ -1,0 +1,13 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+/* Esta pseudo clase se usa para dar estilos al primer elemento entre un grupo de elementos hermanos.
+Tiene que ser el primer hijo dentro de un contenedor. */
+p:first-child{
+    border: 1px solid orange;
+}
+
+/* todo: DIFERENCIAR ENTRE EL PRIMER HIJO DEL CONTENEDOR (FIRST-CHILD), DE LA PRIMERA COINCIDENCIA DEL CONTENEDOR (FIRST-OF-TYPE). */

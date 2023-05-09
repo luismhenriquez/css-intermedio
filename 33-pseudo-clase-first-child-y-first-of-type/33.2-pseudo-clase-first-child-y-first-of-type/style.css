@@ -1,0 +1,16 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+/* 
+:first-of-type: LA PRIMERA COINCIDENCIA de los selectores.
+
+Esta pseudo clase se usa para dar estilos al primer elemento que coincida con el selector, esta es la gran diferencia entre los dos, que :first-child tiene que ser el primer hijo, y :first-of-type tiene que ser la primera coincidencia. */
+p:first-of-type{
+    border: 1px solid orange;
+}
+
+
+/* todo: DIFERENCIAR ENTRE EL PRIMER HIJO DEL CONTENEDOR (FIRST-CHILD), DE LA PRIMERA COINCIDENCIA DEL CONTENEDOR (FIRST-OF-TYPE). */
