@@ -1,0 +1,14 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+
+.text::selection{
+    color: red;
+    background-color: aqua;
+}
+
+/* Este pseudo elemento se utiliza para dar estilos al texto seleccionado por el usuario.
+SOLO TENEMOS ESTAS DOS PROPIEDADES PARA MODIFICARLO: color y background. */

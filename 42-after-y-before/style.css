@@ -1,0 +1,25 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+
+
+.span::before,
+.span::after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: red;
+}
+
+
+
+/* Los Pseudo-elementos son elementos de línea. */
+
+/* ¿Cuándo usar un Pseudo-elemento?
+    Si al quitar un Pseudo-elemento, el contenido del sitio NO SE VE AFECTADO, y en el caso de que lo quite, no pasaría absolutamente nada, más allá de la estética, en ese caso, el uso de un pseudo-elemento, será correcto.
+    
+    Si eso que añadimos, lo quitamos, y afecta de alguna forma al contenido, ahí lo que debería de usar es un elemento en vez de un pseudo-elemento. */

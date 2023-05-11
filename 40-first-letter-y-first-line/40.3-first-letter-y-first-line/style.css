@@ -1,0 +1,16 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+
+.text::first-line{
+    color: lightgreen;
+    font-size: 3rem;
+    font-family: serif;
+    line-height: .5em;
+}
+/* ::first-letter es para editar la primera letra de un texto, ::first-line es para editar la primera línea de un texto. */
+
+/* Estamos limitados a los estilos que podemos dar */

@@ -1,0 +1,14 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+.text::before {
+  content: open-quote;
+}
+.text::after {
+  content: close-quote;
+}
+
+/* También existe el valor open-quote y close-quote para incluir comillas de citas que se adaptarán al idioma de la web. */

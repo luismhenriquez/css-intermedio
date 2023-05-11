@@ -1,0 +1,20 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+.span{
+    display: inline-block;
+}
+/* No podemos darle estilos a span porque es un elemento de línea, primero hay que convertirlo a elemento de bloque o inline-block */
+.span::first-letter{
+    color: lightgreen;
+    font-size: 3rem;
+    font-family: serif;
+    line-height: .5em;
+    margin-right: .2em;
+}
+
+
+/* Estamos limitados a los estilos que podemos dar */

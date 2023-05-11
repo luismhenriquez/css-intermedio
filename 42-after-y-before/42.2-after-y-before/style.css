@@ -1,0 +1,39 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a::before {
+    content: "\f5c0"; /* Código Unicode del icono de flecha izquierda */
+    font-family: FontAwesome; /* Fuente que contiene los iconos */
+    margin-right: 0.5rem; /* Espacio entre el icono y el texto del enlace */
+    color: gold;
+  }
+  
+  a::after {
+    content: '\f005';
+    font-family: FontAwesome;
+    margin-left: .5rem;
+    color:gold;
+  }
+
+  p::after,
+  p::before {
+    content: "Haz clic aquí para más información";
+    display: block;
+    color: red;
+    font-weight: bold;
+  }
+
+/* Los Pseudo-elementos son elementos de línea. */
+
+/* ¿Cuándo usar un Pseudo-elemento?
+    Si al quitar un Pseudo-elemento, el contenido del sitio NO SE VE AFECTADO, y en el caso de que lo quite, no pasaría absolutamente nada, más allá de la estética, en ese caso, el uso de un pseudo-elemento, será correcto.
+    
+    Si eso que añadimos, lo quitamos, y afecta de alguna forma al contenido, ahí lo que debería de usar es un elemento en vez de un pseudo-elemento. */

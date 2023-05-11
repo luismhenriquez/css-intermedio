@@ -16,4 +16,4 @@ body{
     background-color: purple;
 }
 
-/* En este caso, empezaría a contar desde el 5 */
+/* En este caso, empezaría a contar desde el 5, porque box-12 es la primera siempre será la primera coincidencia */

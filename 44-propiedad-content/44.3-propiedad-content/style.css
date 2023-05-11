@@ -1,0 +1,21 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+.text{
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+}
+
+
+.text::after{
+  content: linear-gradient(red, purple);
+}
+
+/* 
+Aquí están los symbol unicode:
+https://symbl.cc/es/
+*/

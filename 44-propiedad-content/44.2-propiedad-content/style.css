@@ -1,0 +1,15 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+
+.text::after{
+  content: '\1F525';
+}
+
+/* 
+Aquí están los symbol unicode:
+https://symbl.cc/es/
+*/

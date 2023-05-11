@@ -1,0 +1,14 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+
+.text{
+    user-select:none;
+}
+
+/* Como detalle extra, tenemos la propiedad user-select para permitir al usuario selccionar o no texto de nuestro sitio web.
+
+En caso de que no quisiera que seleccione ningún texto en la página web completa, se pone en el body.*/

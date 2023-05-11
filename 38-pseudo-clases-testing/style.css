@@ -1,0 +1,191 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+    min-height: 200vh;
+}
+
+
+.box {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box:first-child{
+    background-color: purple;
+}
+/* Esta pseudo clase se usa para dar estilos al primer elemento entre un grupo de elementos hermanos. Tiene que ser el primer hijo dentro de un contenedor.
+
+Si le ponemos por ejemplo un h2 dentro del contenedor donde están los boxes, no se seleccionará. */
+
+.box-2 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box-2:first-of-type{
+    background-color: lightskyblue;
+}
+/* Esta pseudo clase se usa para dar estilos al primer elemento que coincida con el selector, ESTA ES LA GRAN DIFERENCIA ENTRE LOS DOS, que :first-child tiene que ser el primer hijo, y :first-of-type tiene que ser la primera coincidencia. */
+
+.box-3 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box-3:nth-child(3){
+    background-color: aqua;
+}
+/* todo: :nth-child() selecciona elementos basados en su posición en relación a sus hermanos. */
+
+.box-4 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box-4:nth-of-type(3){
+    background-color: lightcoral;
+}
+/* todo: :nth-of-type() selecciona elementos basados en su tipo y posición dentro del padre */
+
+.box-5 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box-5:nth-child(2n){
+    background-color: blue;
+}
+/* todo: Se va seleccionando dependiendo de lo que le digamos, cada 1n o cada 2n, o cada 3n se va seleccionando, y así. */
+
+.box-6 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box-6:nth-of-type(2n){
+    background-color: brown;
+}
+/* todo: Se va seleccionando dependiendo de lo que le digamos, cada 1n o cada 2n, o cada 3n se va seleccionando, y así. */
+
+.box-7 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box-7:nth-child(2n+1){
+    background-color: red;
+}
+
+/* todo: Ahora vamos a ponerlo, pero en este caso +1, es decir, 1 después del que seleccionamos. */
+
+.box-8 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box-8:nth-of-type(2n+1){
+    background-color: darkred;
+}
+/* todo: Ahora vamos a ponerlo, pero en este caso +1, es decir, 1 después del que seleccionamos. */
+
+.box-9 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box-9:nth-child(2n-1){
+    background-color: burlywood;
+}
+/* todo: Ahora vamos a ponerlo, pero en este caso -1, es decir, 1 menos del que seleccionamos. */
+
+.box-10 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box-10:nth-child(n+5){
+    background-color: chocolate;
+}
+/* En este caso, empezaría a contar desde el 4, porque tiene un tema, y el tema cuenta como elemento porque es un elemento, si le quitamos el h1, empezaría a contar desde el 5 en adelante. OTRO EJEMPLEO ABAJO */
+
+.box-11 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box-11:nth-child(n+5){
+    background-color: darkcyan;
+}
+/* Ahora sí empieza a contar desde el 5 en adelante porque el primer hijo del contenedor-10 es box-11 */
+
+.box-12 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box-12:nth-of-type(n+5){
+    background-color: cornflowerblue;
+}
+/* En este caso, empezaría a contar desde el 5, porque box-12 siempre será la primera coincidencia */
+
+
+.box-13 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box-13:nth-child(-n+5){
+    background-color: deeppink;
+}
+/* En este caso, selecciona todos los elementos HASTA al 4, porque está el elemento o etiqueta de h1 que está primero, si quitamos el h1, sí empezaría desde la caja 5. OTRO EJEMPLO ABAJO */
+
+.box-14 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box-14:nth-child(-n+5){
+    background-color: dimgray;
+}
+/* En este caso, llegaría hasta el 5, porque no tiene otro elemento que esté primero que box-14, sino que box-14 es el primer elemento del contenedor */
+
+.box-15 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+}
+
+.box-15:nth-of-type(-n+5){
+    background-color: chartreuse;
+}
+/* En este caso, selecciona todos los elementos HASTA al 5, porque box-15 siempre será la primera coincidencia */

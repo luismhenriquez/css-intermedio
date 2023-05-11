@@ -1,0 +1,43 @@
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+.shapes {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  box-shadow: 250px 0 orange;
+}
+
+.shapes::after,
+.shapes::before {
+  content: '';
+  position: absolute;
+  width: inherit;
+  height: inherit;
+}
+
+.shapes::after {
+  left: 125px;
+  border-radius: 50%;
+  background-color: rebeccapurple;
+  color: lightseagreen;
+  box-shadow: -125px 125px, 125px 125px;
+}
+
+.shapes::before {
+  left: 250px;
+  box-shadow: -125px 125px purple;
+}
