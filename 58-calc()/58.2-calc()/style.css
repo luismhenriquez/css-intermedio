@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+:root {
+  --demo: 30px
+}
+
+.header {
+  width: calc(100% - var(--demo));
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightcoral;
+}
+
+/* Se puede calcular con variables también. */

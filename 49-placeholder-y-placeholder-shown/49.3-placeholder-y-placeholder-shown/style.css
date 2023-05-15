@@ -1,0 +1,14 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+
+
+
+.form__input:not(:placeholder-shown) {
+  background-color: red;
+}
+
+/* Ahora lo contrario, se mostrará mientras estemos escribiendo */

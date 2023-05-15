@@ -1,0 +1,21 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+
+::placeholder {
+  color: aqua;
+  background-color: red;
+  padding-left: 1rem;
+}
+
+
+/* .form__input::placeholder {
+  color: aqua;
+  background-color: red;
+  padding-left: 1rem;
+}
+Podemos darle los estilos específicamente en el input con la class, en general, solo poniendo ::placeholder y los estilos.
+*/

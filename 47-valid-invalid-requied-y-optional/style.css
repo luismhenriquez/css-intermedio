@@ -1,0 +1,14 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+.form__input:valid {
+  background-color: green;
+}
+.form__input:invalid {
+  background-color: crimson;
+}
+
+/* Podemos poner un ícono cuando es inválico con ::before y ::after y también un ícono cuando es válido, y así. */

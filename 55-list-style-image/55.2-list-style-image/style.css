@@ -1,0 +1,23 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+.list__item {
+  position: relative;
+  list-style: none;
+}
+
+.list__item::before {
+  content: '';
+  /* position: absolute; es para poder moverlo como queramos, ya que al usar ::before, el elemente se vuelve hijo. */
+  position: absolute;
+  left: -20px;
+  width: 20px;
+  height: 20px;
+  background-image: url(/assets/images/pikachu35x35.png);
+  background-size: contain;
+}
+
+/* Como no podemos perzonalidar la imagen que pongamos en list-style-image, podemos usar la alternativa de ::before. */

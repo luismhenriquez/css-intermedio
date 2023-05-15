@@ -1,0 +1,22 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+.form__input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid aliceblue;
+  caret-color: red;
+  color: aliceblue;
+}
+
+
+.form__input:focus {
+  outline: none;
+}
+
+.form:focus-within {
+  background-color: red;
+}

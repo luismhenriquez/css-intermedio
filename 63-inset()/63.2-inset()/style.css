@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  clip-path: inset(50px 100px 150px 125px);
+  /* clip-path: lo que hace es recortar la imagen, en este ejemplo, recortó la imagen tal que ahora se ve el box de abajo. */
+}
+
+/* 1 valor: se aplicará a todas las esquinas del rectángulo
+2 valores: se aplicará el primer valor a las esquinas superior izquierda e inferior derecha
+3 valores: se aplicará el primer valor a la esquina superior izquierda, el segundo a las esquinas superior derecha e inferior izquierda y el tercer valor a la esquina inferior derecha
+4 valores: se aplicará el primer valor a la esquina superior izquierda, el segundo a la esquina superior derecha, el tercer valor a la esquina inferior derecha y el cuarto a la esquina inferior izquierda. */
+
+.box {
+  width: 600px;
+  height: 386px;
+  background-color: lightcoral;
+}

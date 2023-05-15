@@ -1,0 +1,19 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+
+/* .form__label::after {
+  content: '*';
+  color: red;
+} */
+
+.form__input:required {
+  background-color: lightcoral;
+}
+
+.form__input:optional {
+  background-color: aqua;
+}

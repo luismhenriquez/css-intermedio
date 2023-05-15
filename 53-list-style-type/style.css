@@ -1,0 +1,16 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+.list {
+  list-style-type: circle;
+}
+
+/* 
+Valores gráficos:
+disc
+circle
+square
+*/

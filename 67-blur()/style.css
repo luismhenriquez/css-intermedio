@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.box {
+  /* width: 600px; */
+  height: 386px;
+  background-color: lightcoral;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+}

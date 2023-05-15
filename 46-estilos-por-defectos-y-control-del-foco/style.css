@@ -1,0 +1,23 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+.form__input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid aliceblue;
+
+  /* Color del mouse cuando escribo */
+  caret-color: red;
+
+  /* Color de lo que escribo */
+  color: aliceblue;
+}
+
+
+/* Quitamos el color cuando le damos clic con el mouse al input */
+.form__input:focus {
+  outline: none;
+}

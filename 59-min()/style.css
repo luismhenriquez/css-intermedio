@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+.header {
+  width: min(100%, 900px);
+  height: 40px;
+  background-color: lightcoral;
+}
+
+/* width: 100%;
+  max-width: 900px;
+  Es lo mismo que poner estos valores, pero con menos código. */
+

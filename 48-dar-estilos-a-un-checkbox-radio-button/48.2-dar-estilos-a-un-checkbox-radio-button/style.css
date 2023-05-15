@@ -1,0 +1,31 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+
+.form__label {
+  display: inline-block;
+  width: 30px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: grey;
+}
+
+.form__label::after{
+  position: absolute;
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-color: purple;
+  border-radius: 50%;
+}
+
+.form__input {
+  display: none;
+}
+
+.form__input:checked + .form__label::after {
+  transform: translateX(15px);
+}

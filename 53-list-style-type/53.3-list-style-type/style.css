@@ -1,0 +1,18 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+.list {
+  list-style-type: upper-latin;
+}
+
+/* 
+Valores alfanuméricos:
+lower-greek
+lower-latin
+upper-latin
+lower-alpha
+upper-alpha
+*/

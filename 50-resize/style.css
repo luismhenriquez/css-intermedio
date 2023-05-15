@@ -1,0 +1,24 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+
+
+
+.form__textarea {
+  resize: horizontal;
+}
+
+
+/* 
+resize
+Esta propiedad nos va a permitir controlar si un text area se puede redimensionar o no
+
+El valor por defecto es both que nos permitirá redimensionar el text area tanto horizontal como verticalmente, y para modificar este comportamiento tenemos los valores
+
+none: Impide que se pueda redimensionar
+vertical: Permite que se pueda redimensionar sólo verticalmente
+horizontal: permite que se pueda redimensionar sólo horizontalmente
+*/

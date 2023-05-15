@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+.header {
+  width: clamp(600px, 100%, 900px);
+  height: 40px;
+  background-color: lightcoral;
+}
+
+/* Con clamp tenemos el mínimo, el ideal y el máximo, que es lo mismo que:
+width: 100%;
+min-width: 600px;
+max-width: 900px; */

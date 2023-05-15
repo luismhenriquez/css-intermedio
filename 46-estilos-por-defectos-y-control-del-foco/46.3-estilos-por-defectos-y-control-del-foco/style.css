@@ -1,0 +1,38 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus-visible {
+  background-color: red;
+  outline: none;
+}
+
+/* Hay que darle al TAB (tabulador en el teclado) */
+
+.form__input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid aliceblue;
+  caret-color: red;
+  color: aliceblue;
+}
+
+
+.form__input:focus {
+  outline: none;
+}
+
+.form:focus-within {
+  background-color: red;
+}
+
+.form {
+  margin-bottom: 2em;
+}

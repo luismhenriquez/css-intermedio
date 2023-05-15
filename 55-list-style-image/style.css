@@ -1,0 +1,11 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+.list {
+  list-style-image: url(/assets/images/pikachu35x35.png);
+}
+
+/* No podemos personalizar la imagen, debemos de colocarla ya preparada, que no tengamos que añadirle ni quitarle nada ya. El tamaño de ejemplo que usé (personalmente yo, Luis M, fue de 35x35px.) */
