@@ -7,13 +7,3 @@ body{
 * {
   box-sizing: border-box;
 }
-
-img {
-  max-width: 100%;
-  filter: blur(3px);
-}
-/* Efecto gaussiano */
-
-.image:hover {
-  filter: blur(0);
-}

@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  columns: 3 200px;
+  column-rule: 2px dashed red;
+
+}
+/* Esta propiedad es un shorthand nos permite generar una línea entre columnas, tiene la misma sintaxis que border y podemos dividir esta propiedad en column-rule-width, column-rule-style y column-rule-color
+
+  column-rule-width: 2px;
+  column-rule-style: dashed;
+  column-rule-color: red;*/

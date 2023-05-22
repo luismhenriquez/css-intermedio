@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 600px;
+  height: 400px;
+  background-color: #666;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: limegreen;
+
+  /* Centra tanto en cross axis como en main axis, cuando tenemos diplay: flex */
+  margin: auto;
+}
+
+.box-2 {
+  margin-left: auto;
+  background-color: lightsalmon;
+}

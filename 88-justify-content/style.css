@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+
+  /* center: Los elementos se colocan en el centro del eje principal. */
+  justify-content: center;
+
+  height: 500px;
+  border: 1px solid lightcoral;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: lightcoral;
+  border: 3px solid lightseagreen;
+  font-size: 8rem;
+  line-height: 200px;
+}

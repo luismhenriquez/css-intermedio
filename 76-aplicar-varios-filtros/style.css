@@ -10,10 +10,6 @@ body{
 
 img {
   max-width: 100%;
-  filter: blur(3px);
+  filter: drop-shadow(3px 3px 5px red) hue-rotate(90deg);
 }
-/* Efecto gaussiano */
-
-.image:hover {
-  filter: blur(0);
-}
+/* Los filtros deben de ir en orden en función de lo que se busca.  */

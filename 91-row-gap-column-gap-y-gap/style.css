@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+
+  gap: 10px;
+
+  /* 
+     gap: 10px 20px; (el primer valor separa filas, y el segundo otra columnas)
+     row-gap: separa filas.
+     column-gap: separa columnas.
+     gap: (shorthand de row-gap y column-gap) se separa filas y columnas. */
+
+
+  height: 500px;
+  border: 1px solid lightcoral;
+}
+
+.container__image {
+  width: 100px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: lightcoral;
+  border: 3px solid lightseagreen;
+  font-size: 7rem;
+  /* line-height: 200px; */
+}
+
+/* .item:nth-child(3) {
+  height: 300px;
+}
+.item:nth-child(4) {
+  height: 400px;
+} */

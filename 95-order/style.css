@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 500px;
+}
+
+.container__image {
+  width: 100px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: lightcoral;
+  border: 3px solid lightseagreen;
+  font-size: 7rem;
+}
+
+.item:nth-child(1) {
+  background-color: limegreen;
+  order: 1;
+}
+
+.item:nth-child(4) {
+  order: -1;
+}
+
+/* Aunque lo cambiemos de orden, en el HTML sigue siendo exactamente igual. */

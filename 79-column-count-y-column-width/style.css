@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  /* Distribuye el contenido en columnas */
+  column-count: 5;
+
+  /* Le da un ancho mínimo de las columnas */
+  column-width: 200px;
+}

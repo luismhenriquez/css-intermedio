@@ -10,10 +10,10 @@ body{
 
 img {
   max-width: 100%;
-  filter: blur(3px);
+  filter: brightness(.5);
 }
-/* Efecto gaussiano */
+/* Para brillo */
 
 .image:hover {
-  filter: blur(0);
+  filter: brightness();
 }

@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  columns: 3 200px;
+
+  /* Separa las columnas. Se puede utilizar gap solo para separar */
+  column-gap: 50px;
+  /* gap: 50px; */
+}

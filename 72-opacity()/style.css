@@ -10,10 +10,9 @@ body{
 
 img {
   max-width: 100%;
-  filter: blur(3px);
+  filter: opacity(.5)
 }
-/* Efecto gaussiano */
+/* opacidad de la imagen */
 
 .image:hover {
-  filter: blur(0);
-}
+  filter: opacity()

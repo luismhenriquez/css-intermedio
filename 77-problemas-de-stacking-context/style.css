@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  color: #333;
+  z-index: 1;
+}
+
+.image {
+  max-width: 100%;
+  filter: opacity(1);
+}

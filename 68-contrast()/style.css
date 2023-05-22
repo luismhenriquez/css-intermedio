@@ -10,10 +10,10 @@ body{
 
 img {
   max-width: 100%;
-  filter: blur(3px);
+  filter: contrast(1.2)
 }
-/* Efecto gaussiano */
+/* Para contraste */
 
 .image:hover {
-  filter: blur(0);
+  filter: contrast()
 }

@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.galery {
+  columns: 4 200px;
+  column-gap: 10px;
+}
+
+.card {
+  display: inline-block;
+  background-color: rgb(255 255 255 / .5);
+  color: #333;
+  border-radius: .4rem;
+  padding: .4rem;
+  margin-bottom: 10px;
+  filter: grayscale(.8);
+}
+
+.card:hover {
+  background-color: #fff;
+  filter: grayscale(0);
+  filter: saturate(150%);
+}

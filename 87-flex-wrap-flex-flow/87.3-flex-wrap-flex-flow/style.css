@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+
+  /* flex-flow lo que hace es agrupar flex-direction y flex-wrap. */
+  flex-flow: row-reverse wrap;
+  /* El orden aquí no importa, lo puedo poner así también: flex-flow: wrap row-reverse  */
+
+  height: 500px;
+  border: 1px solid lightcoral;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  background-color: lightcoral;
+  border: 3px solid lightseagreen;
+  font-size: 8rem;
+  line-height: 200px;
+  text-align: center;
+}

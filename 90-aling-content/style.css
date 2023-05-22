@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+  /* Si tenemos una línea, utilizamos align-items, si tenemos más de una línea, utilizamos align-content */
+  align-content: space-between;
+  height: 500px;
+  border: 1px solid lightcoral;
+}
+
+.container__image {
+  width: 100px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 150px;
+  height: 150px;
+  background-color: lightcoral;
+  border: 3px solid lightseagreen;
+  font-size: 7rem;
+  /* line-height: 200px; */
+}
+
+/* .item:nth-child(3) {
+  height: 300px;
+}
+.item:nth-child(4) {
+  height: 400px;
+} */

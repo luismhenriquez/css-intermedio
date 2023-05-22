@@ -10,10 +10,11 @@ body{
 
 img {
   max-width: 100%;
-  filter: blur(3px);
+  filter: grayscale(0.3)
 }
-/* Efecto gaussiano */
+/* Para escala de gris,
+los valores se mueven entre 0 hasta el 1, ejemplo: .5 */
 
 .image:hover {
-  filter: blur(0);
+  filter: grayscale(0)
 }

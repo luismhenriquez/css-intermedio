@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.container__image {
+  width: 100px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: lightcoral;
+  border: 3px solid lightseagreen;
+  font-size: 7rem;
+  /* line-height: 200px; */
+}
+
+/* Con flex-basis podemos establecer el tamaño inicial del elemento 
+  Si en el main-axis le ponemos un width, no funcionará el width.
+  Si en el cross-axis le ponemos un height, no funcionará el height */
+
+
+.item:nth-child(2) {
+  width: 300px;
+  height: 400px;
+  flex-basis: 200px;
+}

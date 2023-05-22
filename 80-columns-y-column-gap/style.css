@@ -8,12 +8,7 @@ body{
   box-sizing: border-box;
 }
 
-img {
-  max-width: 100%;
-  filter: blur(3px);
+.box {
+  columns: 3 200px;
 }
-/* Efecto gaussiano */
-
-.image:hover {
-  filter: blur(0);
-}
+/* shorthand de column-count y column-width */

@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  columns: 3 200px;
+  column-rule: 2px dashed red;
+
+}
+
+.title {
+  column-span: all;
+}
+
+
+
+
+
+
+
+
+
+
+/* column-span: Esta propiedad hace posible que un elemento se extienda sobre todas las columnas */

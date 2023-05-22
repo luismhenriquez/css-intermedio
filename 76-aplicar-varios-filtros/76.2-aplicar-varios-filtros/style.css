@@ -8,12 +8,7 @@ body{
   box-sizing: border-box;
 }
 
-img {
+.image {
   max-width: 100%;
-  filter: blur(3px);
-}
-/* Efecto gaussiano */
-
-.image:hover {
-  filter: blur(0);
+  filter: invert(1) sepia(1) saturate(300) hue-rotate(100deg);
 }

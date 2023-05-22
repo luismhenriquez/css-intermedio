@@ -10,10 +10,10 @@ body{
 
 img {
   max-width: 100%;
-  filter: blur(3px);
+  filter: hue-rotate(90deg)
 }
-/* Efecto gaussiano */
+/* Los colores rotan */
 
 .image:hover {
-  filter: blur(0);
+  filter: hue-rotate()
 }

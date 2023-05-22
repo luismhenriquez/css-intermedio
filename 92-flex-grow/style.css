@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 500px;
+  border: 1px solid lightcoral;
+}
+
+.container__image {
+  width: 100px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: lightcoral;
+  border: 3px solid lightseagreen;
+  font-size: 7rem;
+  /* line-height: 200px; */
+}
+
+/* Aumentar px de elementos */
+.item:nth-child(2) {
+  flex-grow: 2;
+}
