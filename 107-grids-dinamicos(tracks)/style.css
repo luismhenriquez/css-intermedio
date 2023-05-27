@@ -1,0 +1,30 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+
+  /* auto-fill: Genera tracks vacíos de las medidas establecidas para rellenar el espacio restante. SOLO SE USA CON repeat().
+  auto.fill: Lo que hace es rellenar columnas del tamaño que nosotros hemos especificado, en este caso, 200px. */
+  grid-template-columns: repeat(auto-fill, 200px);
+  /* gap: 1rem;
+  border: 2px solid royalblue; */
+}
+
+.item {
+  font-size: 1.4rem;
+}
+
+.item:nth-child(even) {
+  background-color: lightcoral;
+}
+.item:nth-child(odd) {
+  background-color: lightseagreen;
+}

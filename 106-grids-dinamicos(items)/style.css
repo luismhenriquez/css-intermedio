@@ -1,0 +1,28 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+
+  /* min-content: ocupará el menor espacio necesario para que entre la palabra más larga. Es aplicable para palabras, imáganes o cualquier otro elemento que tenga. */
+  grid-template-columns: 1fr min-content 1fr;
+  gap: 1rem;
+  border: 2px solid royalblue;
+}
+
+.item {
+  font-size: 2rem;
+}
+
+.item:nth-child(even) {
+  background-color: lightcoral;
+}
+.item:nth-child(odd) {
+  background-color: lightseagreen;
+}

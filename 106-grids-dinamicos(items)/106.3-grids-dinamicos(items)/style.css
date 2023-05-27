@@ -1,0 +1,28 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+
+  /* fit-content(max): Es una mezcla entre min-content y max content. Como parámetro le dirémos cual es su máximo, y como mínimo será min-content. Nunca pasará de lo que le digamos. */
+  grid-template-columns: 1fr fit-content(300px) 1fr;
+  gap: 1rem;
+  border: 2px solid royalblue;
+}
+
+.item {
+  font-size: 2rem;
+}
+
+.item:nth-child(even) {
+  background-color: lightcoral;
+}
+.item:nth-child(odd) {
+  background-color: lightseagreen;
+}

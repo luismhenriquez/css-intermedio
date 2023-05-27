@@ -1,0 +1,43 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+
+  /* fr: Si le ponemos auto, si las letras que tiene es largo, se queda de ese mismo largo, y jamás se encoge, se encoge los demás, porque le estamos diciendo que tenga el espacio mínimo para que los elementos no tengan que saltar de línea.
+  
+  Si le ponemos auto al segundo, solo ocupara el espacio mínimo para que ocupe el número.*/
+  grid-template-columns: auto auto 1fr;
+  grid-template-rows: 100px 200px 300px;
+  gap: 1rem;
+  border: 2px solid royalblue;
+}
+
+.item {
+  font-size: 2rem;
+}
+
+.item:nth-child(1) {
+  background-color: lightcoral;
+}
+.item:nth-child(2) {
+  background-color: lightseagreen;
+}
+.item:nth-child(3) {
+  background-color: limegreen;
+}
+.item:nth-child(4) {
+  background-color: darkgoldenrod;
+}
+.item:nth-child(5) {
+  background-color: darkorchid;
+}
+.item:nth-child(6) {
+  background-color: darkolivegreen;
+}

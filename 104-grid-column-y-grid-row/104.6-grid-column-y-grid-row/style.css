@@ -1,0 +1,36 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 100px;
+  grid-template-rows: repeat(3, 100px);
+  gap: 1rem;
+  border: 2px solid royalblue;
+}
+
+.item {
+  font-size: 2rem;
+}
+
+.item:nth-child(even) {
+  background-color: lightcoral;
+}
+.item:nth-child(odd) {
+  background-color: lightseagreen;
+}
+
+/* Empezando desde la columna 1, con el -1 le decimos que ocupe todo el espacio disponible. */
+.item:first-child {
+  grid-column: 1 / -1;
+
+  /* Empezando desde la fila 2, con el -1 le decimos que ocupe todo el espacio disponible. */
+  grid-row: 2 / -1;
+  
+}

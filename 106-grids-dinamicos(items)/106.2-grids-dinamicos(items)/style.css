@@ -1,0 +1,28 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+
+  /* max-content: Es el equivalente a auto ocupará lo maximo necesario. Podemos poner auto también */
+  grid-template-columns: 1fr max-content 1fr;
+  gap: 1rem;
+  border: 2px solid royalblue;
+}
+
+.item {
+  font-size: 2rem;
+}
+
+.item:nth-child(even) {
+  background-color: lightcoral;
+}
+.item:nth-child(odd) {
+  background-color: lightseagreen;
+}

@@ -1,5 +1,4 @@
 body{
-  margin: 0;
   background-color: #333;
   font-family: sans-serif;
   color: aliceblue;
@@ -9,8 +8,12 @@ body{
 }
 
 .container {
-  /* Si necesitamos usar grid, y un elemento tiene que estar al lado, y no forma parte del grid, en ese caso, simplemente se usa display: inline-grid */
-  display: inline-grid;
+  display: grid;
+
+  /* fr: Esta medida sirve para que le navegador calcule automáticamente la medida de los grid-tracks, es decir, que no se desborda porque incluye el espacio que hemos hecho de gap: rem. */
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100px 200px 300px;
+  gap: 1rem;
   border: 2px solid royalblue;
 }
 
@@ -28,11 +31,11 @@ body{
   background-color: limegreen;
 }
 .item:nth-child(4) {
-  background-color: orange;
+  background-color: darkgoldenrod;
 }
 .item:nth-child(5) {
-  background-color: purple;
+  background-color: darkorchid;
 }
 .item:nth-child(6) {
-  background-color: lime;
+  background-color: darkolivegreen;
 }

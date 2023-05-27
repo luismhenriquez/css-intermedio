@@ -1,0 +1,44 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+  'a'
+  'b'
+  'c';
+  gap: 1rem;
+  border: 2px solid royalblue;
+}
+
+@media screen and (min-width: 640px) {
+  .container {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(4, 100px);
+    grid-template-areas:
+    'a a b'
+    'a a b'
+    'c c c';
+  }
+}
+
+.item {
+  font-size: 2rem;
+}
+
+.item:nth-child(even) {
+  background-color: lightcoral;
+}
+.item:nth-child(odd) {
+  background-color: lightseagreen;
+}
+
+.item:first-child {
+  grid-area: a;
+}
