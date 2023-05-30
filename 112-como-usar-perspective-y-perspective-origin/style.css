@@ -1,0 +1,41 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.reference {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  justify-self: center;
+  align-items: center;
+  outline: 1px dashed #fff;
+  outline-offset: -1px;
+
+  /* La propiedad perspective nos permite modificar la distancia a la que se encuentra el usuario del elemento, lo más común es establecer una distancia en píxeles, y dependiendo del tamaño del elemento pondremos más o menos distancia. */
+  perspective: 1000px;
+}
+
+/* .referencia::after {
+  content: 'X';
+  position: relative;
+  left: 50%;
+}
+
+.referencia::before {
+  content: 'Y';
+  position: relative;
+  top: 50%;
+} */
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: lightgreen;
+  opacity: .7;
+  transform: rotateY(75deg);
+}

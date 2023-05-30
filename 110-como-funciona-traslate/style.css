@@ -1,0 +1,40 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.referencia {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  justify-self: center;
+  align-items: center;
+  outline: 1px dashed #fff;
+  outline-offset: -1px;
+}
+
+/* .referencia::after {
+  content: 'X';
+  position: relative;
+  left: 50%;
+}
+
+.referencia::before {
+  content: 'Y';
+  position: relative;
+  top: 50%;
+} */
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: lightgreen;
+  opacity: .7;
+  /* position: relative;
+  left: 50%; */
+  transform: translateX(50%);
+}

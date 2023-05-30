@@ -1,0 +1,43 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.reference {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  justify-self: center;
+  align-items: center;
+  outline: 1px dashed #fff;
+  outline-offset: -1px;
+}
+
+/* .referencia::after {
+  content: 'X';
+  position: relative;
+  left: 50%;
+}
+
+.referencia::before {
+  content: 'Y';
+  position: relative;
+  top: 50%;
+} */
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: lightgreen;
+  opacity: .7;
+
+  /* La propiedad transform: rotate() en CSS se utiliza para aplicar una rotación a un elemento. Permite girar el elemento en el sentido de las agujas del reloj o en sentido contrario. */
+  transform: rotate(-45deg);
+
+  /* La propiedad transform-origin en CSS se utiliza para establecer el punto de origen de una transformación aplicada a un elemento. Este punto determina alrededor de qué punto se realizará la transformación, como rotación, escala o sesgado. */
+  transform-origin: bottom left;
+}

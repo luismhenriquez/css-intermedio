@@ -1,0 +1,40 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.reference {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 400px;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  outline: 1px dashed #fff;
+  outline-offset: -1px;
+}
+
+.reference::after {
+  content: 'Y';
+  position: absolute;
+  left: 70px;
+  bottom: -20px;
+}
+
+.reference::before {
+  content: 'X';
+  position: absolute;
+  top: 70px;
+  left: -15px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: lightgreen;
+  transform: skew(25deg, 25deg);
+}

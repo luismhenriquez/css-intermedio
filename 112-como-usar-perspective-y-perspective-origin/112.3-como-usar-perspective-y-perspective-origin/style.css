@@ -1,0 +1,41 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.reference {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  justify-self: center;
+  align-items: center;
+  outline: 1px dashed #fff;
+  outline-offset: -1px;
+
+  /* Con perspective-origin cambiamos el punto de vista de los elementos, perspective-origin no funciona dentro del mismo transform, tiene que ser en el elemento padre, por ejemplo como lo estamos haciendo. */
+  perspective-origin: top left;
+}
+
+/* .referencia::after {
+  content: 'X';
+  position: relative;
+  left: 50%;
+}
+
+.referencia::before {
+  content: 'Y';
+  position: relative;
+  top: 50%;
+} */
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: lightgreen;
+  opacity: .7;
+  transform: rotateY(55deg);
+}

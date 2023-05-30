@@ -1,0 +1,46 @@
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
+
+.reference {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 400px;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  outline: 1px dashed #fff;
+  outline-offset: -1px;
+}
+
+.reference::after {
+  content: 'Y';
+  position: absolute;
+  left: 70px;
+  bottom: -20px;
+}
+
+.reference::before {
+  content: 'X';
+  position: absolute;
+  top: 70px;
+  left: -15px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  opacity: .7;
+  transform: scaleX(4);
+}
+
+/* Cuando el texto se deforme, lo que hacemos es dividir, si tenemos el scale a 2, lo que hacemos es dividir 1 % 2; da 0.5. Si es un escale de 4, dividimos 1 % 4; da 0.25. Y ese es el resultado que ponemos para que el texto no se deforme. */
+.text {
+  transform: scale(.25);
+}
